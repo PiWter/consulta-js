@@ -15,7 +15,6 @@ import fs from 'fs';
 
 const connection = mysql.createConnection({
     server: 'localhost',
-    //server: 'DESKTOP-09M8DDI',
     database: 'pub',
     port: '2121',
     /*options: {
